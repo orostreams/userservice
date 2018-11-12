@@ -20,6 +20,6 @@ type User struct {
 }
 
 //ToMap converts the user struct to a map
-func (user *User) ToMap() map[string]interface{} {
+func (user User) ToMap() map[string]interface{} {
 	return structs.Map(user)
 }

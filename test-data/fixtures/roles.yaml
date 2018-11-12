@@ -1,0 +1,7 @@
+- id: 1,
+  name: "administrator",
+  slug: "guest"
+
+- id: 2,
+  name: "guest",
+  slug: "guest"
